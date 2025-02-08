@@ -1,0 +1,42 @@
+body{
+    color: red;
+    background-color: bisque;
+    display: grid;
+justify-content: center;
+height:300px;
+width: 700px;
+border: 1px solid black;
+}
+button{
+    border:5px solid rgb(144, 41, 41);
+    color:blue; 
+    background-color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: box-shadow 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+button:hover{
+    color:rgb(255, 200, 250);
+    background-color: blue;
+    font-style: italic;
+    font-family: cursive;
+    border: 5px solid greenyellow;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.5);
+    box-sizing: border-box;
+}
+
+h2{
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+  
+}
+h2:hover{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    transition:ease;
+
+}
